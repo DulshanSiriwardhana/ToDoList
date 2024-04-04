@@ -15,7 +15,7 @@ function NavBar() {
                     <Link style={{textDecoration:'none'}} to='/List'>List</Link>
                 </li>
                 <li>
-                    <Link style={{textDecoration:'none'}} to='/Login'>Login</Link>
+                    <Link style={{textDecoration:'none'}} to='/CreateTask'>New Task</Link>
                 </li>
             </ul>
             <ul className='navbar-list2'>

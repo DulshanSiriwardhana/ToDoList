@@ -28,6 +28,7 @@
 }
 .two-ul{
     display: flex;
+    justify-content: space-between;
 }
 .navbar-list2{
     display: flex;
@@ -36,6 +37,7 @@
     padding: 0;
     align-items: center;
     flex: 0.1;
+    margin-left: 20px
 }
 .navbar-list2 li{
     margin-right: 10px;
