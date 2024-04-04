@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
-import Home from './components/Home/Home';
-import List from './components/List/List';
-import Login from './components/Login/Login';
+import Home from './components/pages/Home/Home';
+import List from './components/pages/List/List';
+import Login from './components/pages/Login/Login';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <NavBar/>
         <Routes>
-          <Route path='Home' element={<Home/>}/>
+          <Route exact path='Home' element={<Home/>}/>
           <Route path='List' element={<List/>}/>
           <Route path='Login' element={<Login/>}/>
         </Routes>
